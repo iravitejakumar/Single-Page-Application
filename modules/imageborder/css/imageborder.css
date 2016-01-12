@@ -1,0 +1,7 @@
+.border { 
+    border: 10px solid transparent;
+    padding: 15px;
+    -webkit-border-image: url(../image/photo.jpg) 30 round; 
+    -o-border-image: url(../image/photo.jpg) 30 round; 
+    border-image: url(../image/photo.jpg) 30 round;
+}

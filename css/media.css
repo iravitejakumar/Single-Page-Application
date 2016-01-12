@@ -1,0 +1,45 @@
+
+
+
+@media screen and (max-width: 400px) {
+    /*media query for top*/
+     nav{
+    	display: none;
+    }
+    nav ul li {
+ float: none;
+ 
+}
+nav >ul {
+	width:250px;
+	}
+  nav ul li a {
+  	text-align: center;
+  }  
+  .mobilemenu{
+  	display: block;
+  }
+ img {
+    width: 305px;
+}
+  .box1 {
+    height: 204px;
+    width: 218px;
+    padding-left: 25px;
+    padding-top: 24px;
+}
+.box2 {
+    height: 457px;
+    width: 303px;
+    }
+
+  .box4 {
+    height: 339px;
+    width: 240px;
+    font-size: smaller;
+}
+}
+  #googleMap{
+ width:300px;
+ height:300px;
+}

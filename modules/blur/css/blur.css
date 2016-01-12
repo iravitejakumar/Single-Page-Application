@@ -1,0 +1,12 @@
+
+
+.blur{  
+text-align:center;
+  margin-top:70px;
+  font-size:40px;
+  font-family:arial;
+  line-height:2.0;
+  color: transparent;  
+  text-shadow: 0 0 4px rgba( 0, 0, 0, 0.9);
+    display:inline-block;
+}

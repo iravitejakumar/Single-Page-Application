@@ -1,0 +1,286 @@
+<html>
+  <head>
+    <title>
+      RCS
+    </title>
+    <link rel="shortcut icon" href="rcs.png" />
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js">
+    </script>
+  </head>
+  <body onload="fnDoLoad()" background="images/background.jpg">
+    <img src="images/rcs1.png"/>
+    <div class="mobilemenu" onclick="fnGetMenu()">
+      <b> &equiv; </b>
+    </div>
+    <div id="menu">
+    </div>
+    <div class="box1">
+      <h2>
+        Login
+      </h2>
+        <div id="textbox">
+          <input type="email" name="email" placeholder="Username">
+          <input type="password" name="pwd" placeholder="password">
+          <button>
+            Login
+          </button>
+        </div>
+        <a href="#popup1" class="register">
+          Register Now
+        </a>
+        <div id="popup1" class="overlay">
+          <div class="popup">
+            <h2>
+              Register Here
+            </h2>
+            <a class="close" href="#">
+              &times;
+            </a>
+            <div class="content1">
+              <form>
+                <table border="0">
+                  
+                  <tr>
+                    <td>
+                      First name:
+                    </td>
+                    <td>
+                      <input type="text" name="First name" placeholder="First name">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Last Name:
+                    </td>
+                    <td>
+                      <input type="text" name="Last name" placeholder="Last name">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Email:
+                    </td>
+                    <td>
+                      <input type="email" name="email" placeholder="name@rcs.com">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Password:
+                    </td>
+                    <td>
+                      <input type="password" name="email" placeholder="***********">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Gender:
+                    </td>
+                    <td>
+                      <input type="radio" name="gender" value="male">
+                      male
+                      <input type="radio" name="gender" value="female">
+                      female
+                      <br>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Languages known:
+                    </td>
+                    <td>
+                      C
+                      <input type="checkbox">
+                      Java
+                      <input type="checkbox">
+                      Oracle
+                      <input type="checkbox">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Date of birth
+                      <td>
+                        <input type="date">
+                    </td>
+                  </td>
+              </tr>
+              <tr>
+                <td>
+                  Phone Number
+                </td>
+                <td>
+                  <input type="number" max="10">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Telephone Number
+                </td>
+                <td>
+                  <input type="tel" name="usrtel" max="10">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Adress:
+                </td>
+                <td>
+                  <textarea>
+                  </textarea>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  State:
+                </td>
+                <td>
+                  <select>
+                    <optgroup label="State">
+                      <option value="Andhra Pradesh">
+                        Andhra Pradesh
+                      </option>
+                      <option value="Tamil nadu">
+                        Tamil Nadu
+                      </option>
+                      
+                      <option value="Karnaka">
+                        Karnataka
+                      </option>
+                      <option value="Kerala">
+                        Kerala
+                      </option>
+                    </optgroup>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <font color="red">
+                    Rate your Skills here
+                  </font>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  C language
+                </td>
+                <td>
+                  <input type="range" name="points" min="0" max="10">
+                </td>
+              </tr>
+              <br>
+              <tr>
+                <td>
+                  Java
+                </td>
+                <td>
+                  <input type="range" name="points" min="0" max="10">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Communication Skills
+                </td>
+                <td>
+                  <input type="range" name="points" min="0" max="10">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <font color="red">
+                    Upload your Resume here
+                  </font>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Select file:
+                </td>
+                <td>
+                  <input type="file">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="reset" name="reset" src="reset.jpg" alt="reset">
+                </td>
+                
+                <td>
+                  <input type="submit"  name="Submit">
+                </td>
+              </tr>           
+            </table>
+          </form>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div id="elementID" class="box2">
+      <img src="images/home.jpg" class="imgHome">
+    </div>
+    
+    <div class="box4" id="aboutus">
+      <div>
+        <h3>
+          About Us:
+        </h3>
+      </div>
+      
+      RCS is a global leader in consulting, technology, and outsourcing and next-generation services. We enable clients in more than 50 countries to outperform the competition and stay ahead of the innovation curve. With US$9.02 bn in LTM Q2 FY16 revenues and 187,000+ employees, we are helping enterprises renew themselves while also creating new avenues to generate value. We provide enterprises with strategic insights on what lies ahead. We help enterprises transform and thrive in a changing world through strategic consulting, operational leadership, and the co-creation of breakthrough solutions, including those in mobility, sustainability, big data, and cloud computing.
+    </div>
+    <div class="box4" id='contactus'>
+      <div id="googleMap">
+      </div>
+      <pre>
+Hyderabad
+Innominds Software SEZ India Pvt Ltd.,
+Survey No.115 (Part), Waverock,
+TSIIC IT / ITES SEZ, Nanakramguda Village,
+Serilingampally Mandal, Hyderabad – 500008
+</pre>
+    </div>
+    <div id="footer">
+    </div>
+    <div class="footer_space">
+    </div>
+    
+    <script type="text/javascript" src="js/main.js">
+    </script>
+    <script type="text/javascript" src="js/ServiceManager/menuServiceManager.js">
+    </script>
+    <script type="text/javascript" src="js/ServiceManager/blurServiceManager.js">
+    </script>
+    <script type="text/javascript" src="js/ServiceManager/emptyServiceManager.js">
+    </script>
+    <script type="text/javascript" src="js/ServiceManager/firstletterServiceManager.js">
+    </script>
+    <script type="text/javascript" src="js/ServiceManager/columnsServiceManager.js">
+    </script>
+    <script type="text/javascript" src="js/ServiceManager/lastchildServiceManager.js">
+    </script>
+    <script type="text/javascript" src="js/ServiceManager/listServiceManager.js">
+    </script>
+    <script type="text/javascript" src="js/ServiceManager/imageborderServiceManager.js">
+    </script>
+    <script type="text/javascript" src="js/ServiceManager/imagecircleServiceManager.js">
+    </script>
+    <script type="text/javascript" src="js/ServiceManager/imagehoverServiceManager.js">
+    </script>
+    <script type="text/javascript" src="js/ServiceManager/humanfaceServiceManager.js">
+    </script>
+    <script type="text/javascript" src="js/ServiceManager/footerServiceManager.js">
+    </script>
+    <script type="text/javascript" src="js/ServiceManager/triangleServiceManager.js">
+    </script>
+    <script type="text/javascript" src="js/ServiceManager/buttonServiceManager.js">
+    </script>
+    <script type="text/javascript" src="js/ServiceManager/boxesServiceManager.js">
+    </script>
+    <script type="text/javascript" src="js/ServiceManager/ribbonServiceManager.js">
+    </script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+.content {
+    -webkit-column-count: 3;
+    -moz-column-count: 3; 
+    column-count: 3;
+    -webkit-column-width: 100px; 
+    -moz-column-width: 100px; 
+    column-width: 100px;
+}

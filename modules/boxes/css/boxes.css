@@ -1,0 +1,23 @@
+.borderbox1,
+.borderbox2,
+.borderbox3 {
+    box-sizing: border-box;
+    float: left;
+    margin-left: 10px;
+    color: orange;
+    width: 200px;
+    height: 200px;
+}
+
+.borderbox1 {
+    background-color: #00b8e6;
+}
+
+.borderbox2 {
+    border: 15px solid #336599;
+}
+
+.borderbox3 {
+    background-color: #4700b3;
+    padding: 50px;
+}
